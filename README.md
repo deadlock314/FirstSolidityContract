@@ -1,2 +1,2 @@
-# FirstSolidityContract
-Basic solidity contract deployed on ropsten test network blockchain
+# SoliditySmartContracts
+Basic solidity contracts deployed on ropsten test network blockchain
