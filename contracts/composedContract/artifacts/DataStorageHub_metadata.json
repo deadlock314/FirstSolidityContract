@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "DataStorageMap",
+				"outputs": [
+					{
+						"internalType": "contract DataStorageContract",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "createNewContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/composedContract/DataStrorageHub.sol": "DataStorageHub"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/composedContract/DataStorageContract.sol": {
+			"keccak256": "0x0b75701b1faade7520ea286b91f4fa253f607290e7d44f1568a732b6bb3a319d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad1818b8107731b52b2774a9983030a7440c2b73391a21550fa2cd17095afcb7",
+				"dweb:/ipfs/QmYcETmD4rytcFtLJTD76Dwdbzx9JkBmQFWs7QCTCToqhd"
+			]
+		},
+		"contracts/composedContract/DataStrorageHub.sol": {
+			"keccak256": "0x0115abbf5f65b239664f7d93787acfe363419e9fcb5bab81adcd615d885f093b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2aa8a51a4a57698690a6e1d73f05af4cc0344996c9324756d91bdc786cf8b52e",
+				"dweb:/ipfs/QmR5CDdBgNvL93q2afTXzsfyF4ZEHdmnksRhdqafW8Ge83"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_uniqueId",
+						"type": "string"
+					}
+				],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_uniqueId",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "_status",
+						"type": "bool"
+					}
+				],
+				"name": "setStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/composedContract/BasicDataStorage.sol": "BasicDataStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/composedContract/BasicDataStorage.sol": {
+			"keccak256": "0x329cd3f8d3f2bffb78440ad7ed4c9f2344890e727b9ea8fbaf8b1a2eae47b12d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e4532cfb097518915779ae8140071181615ac4d092e690e077fda8e57e02f8d9",
+				"dweb:/ipfs/QmWS959tffq12rTeHt4b1bs9tYu8qJX3gc3n5SxHSW7rvK"
+			]
+		}
+	},
+	"version": 1
+}
